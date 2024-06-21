@@ -1,0 +1,22 @@
+/run/initialize
+
+/run/verbose 0
+/event/verbose 1
+/tracking/verbose 0
+
+/gps/particle opticalphoton
+/gps/pos/type Point
+/gps/pos/centre 0 0 520 cm 
+/gps/ang/type iso
+/gps/ang/mintheta 0 deg
+/gps/ene/mono 9.69 eV
+#/gps/pos/centre 0 0 0 cm 
+#/gps/ene/type Pow
+#/gps/ene/min 8. keV
+#/gps/ene/max 10. keV
+#/gps/ene/alpha -2.
+
+#/particle/select opticalphoton
+#/particle/property/lifetime 0.0001 ns
+
+#/run/beamOn 1500000000
